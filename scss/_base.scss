@@ -1,0 +1,41 @@
+/* Base.scss */
+
+body {
+    background-color: $background-color;
+    box-sizing: border-box;
+    color: $color;
+    @include body-font-light;
+    font-size: $base-font-size;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+       color: black; 
+    }
+    .bromoseltzer h1, .constellation h1, .washingtonmonument h1, .thewalters h1,
+    .bromoseltzer h2, .constellation h2, .washingtonmonument h2, .thewalters h2, {
+        font-size: em(120px);
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    @include headline-font;
+    line-height: 1.25;
+    color: $color;
+    overflow: hidden;
+}
+
+a {
+    transition: color 300ms linear;
+    &:hover {
+        transition: color 300ms linear;
+    }
+}

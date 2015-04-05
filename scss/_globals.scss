@@ -1,0 +1,25 @@
+/* Globals.scss */
+
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two:700|Crimson+Text);
+
+$color: #fc9a9a;
+$background-color: #aff0df;
+$base-font-size: 22px;
+$logo-color: #5daa92;
+$line-height: 1.5;
+
+@function em($px, $base: $base-font-size) {
+    @return($px / $base) * 1em;
+}
+
+@mixin body-font-light {
+    font-family: 'Crimson Text', Times New Roman, serif;;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin headline-font {
+    font-family: 'Lobster Two', Helvetica cursive;
+    font-weight: normal;
+    font-style: normal;
+}

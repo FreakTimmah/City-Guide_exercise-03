@@ -1,0 +1,24 @@
+/* Layout.scss */
+
+nav[role="navigation"] {
+    max-width: 600px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    width: 100%;
+}
+
+header[role="banner"] {
+    margin: 60px 0 0 0;
+}
+
+.bromoseltzer h1, .constellation h1, .washingtonmonument h1, .thewalters h1 {
+    margin-bottom: em(10px);
+}
+
+.attractions h1 svg, .credits-photo h1, .credits-design h1, .credits-plugins h1  {
+    margin-bottom: em(60px);
+}
