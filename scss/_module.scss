@@ -33,9 +33,10 @@ header[role="banner"] svg {
 }
 
 .attractions h1 svg, .credits-photo h1, .credits-design h1, .credits-plugins h1 {
-    height: em(10px);
+    font-size: em(40px);
     fill: $logo-color;
-    margin-right: em(6px);
+    margin-top: em(5px);
+
 }
 
 .bromoseltzer h1, .constellation h1, .washingtonmonument h1, .thewalters h1,
@@ -94,7 +95,7 @@ footer[role="contentinfo"] h2 {
 }
 
 footer[role="contentinfo"] ul + h2 {
-    margin-top: em(22px);
+    margin-top: em(10px);
 }
 
 footer[role="contentinfo"] ul {
